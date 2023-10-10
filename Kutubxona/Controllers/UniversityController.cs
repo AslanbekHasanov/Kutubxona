@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Kutubxona.Controllers
 {
+    //This is controller
     [ApiController]
     [Route("api/[controller]/[action]")]
 
