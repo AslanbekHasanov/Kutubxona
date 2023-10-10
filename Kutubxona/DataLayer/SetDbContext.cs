@@ -1,4 +1,5 @@
 ﻿using Kutubxona.Model;
+using Kutubxona.Model.ManyToMany;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection.PortableExecutable;
 
@@ -17,6 +18,10 @@ namespace Kutubxona.DataLayer
         public DbSet<Car> Cars { get; set; }
         public DbSet<University> Universities { get; set; }
         public DbSet<Student> Students { get; set; }
+        public DbSet<Employe> Employes { get; set; } = null;
+        public DbSet<Company> Companies { get; set; }
+
+
 
     }
 }
